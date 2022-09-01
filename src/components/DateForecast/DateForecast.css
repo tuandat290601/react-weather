@@ -1,0 +1,18 @@
+.date-forecast {
+    width: 100%;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    border-bottom: 3px solid var(--dark-orange);
+}
+
+.date-forecast-title {
+    font-size: 42px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: var(--dark-orange)
+}
+
+.forecast-list {
+    display: flex;
+    flex-wrap: wrap;
+}

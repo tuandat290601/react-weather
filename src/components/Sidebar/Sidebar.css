@@ -1,0 +1,36 @@
+.sidebar {
+    width: 25%;
+    height: 100%;
+    background: var(--dark-orange);
+    padding: 20px;
+}
+
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-search-container {
+    width: 100%;
+    position: relative;
+}
+
+.sidebar-search {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+.sidebar-search-title {
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--white);
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,59 @@
+.city-item {
+    width: 100%;
+    margin-top: 30px;
+    padding: 5px 10px;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: .4s all ease;
+}
+
+.city-item:hover {
+    border: 1px solid #000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.city-item-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.city-item-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.city-name {
+    margin-left: 10px;
+}
+
+.city-item-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.city-temp {
+    width: 100%;
+}
+
+.city-avg-temp {
+    display: inline;
+    background-color: #000;
+    color: #fff;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.city-desc-temp {
+    display: inline;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.city-item-footer {
+    margin-top: 10px;
+}

@@ -1,0 +1,31 @@
+.detail-forecast {
+    width: 100%;
+    padding: 20px;
+}
+
+.detail-forecast-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-title {
+    font-size: 36px;
+    color: var(--dark-orange);
+}
+
+.detail-list {
+    display: flex;
+}
+
+.list {
+    margin-right: 50px;
+}
+
+.list-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.detail {
+    margin-bottom: 2px;
+}

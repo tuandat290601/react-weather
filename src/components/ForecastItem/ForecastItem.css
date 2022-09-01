@@ -1,0 +1,23 @@
+.forecast-item{
+    width: calc(100% / 8);
+    padding: 5px 10px;
+}
+
+.forecast-item:hover {
+    cursor: pointer;
+}
+
+.forecast-item-container {
+    background: var(--dark-orange);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #000;
+}
+
+.forecast-day {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,15 @@
+.main {
+    width: 75%;
+    background: var(--light-orange);
+    padding: 20px;
+}
+
+.region-time {
+    padding-left: 10px;
+}
+
+.brief-time {
+    font-size: 36px;
+    color: var(--dark-orange);
+    margin-top: -10px;
+}
